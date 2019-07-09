@@ -3,7 +3,7 @@ from six.moves.builtins import range
 import datetime
 from django.conf import settings
 from django import template
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.utils.dateformat import format
 from django.utils.html import conditional_escape
 from django.utils.safestring import mark_safe
